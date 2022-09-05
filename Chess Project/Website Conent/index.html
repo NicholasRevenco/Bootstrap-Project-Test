@@ -12,7 +12,7 @@
     <link rel="stylesheet" type="text/css" href="style.css">
   </head>
 
-  <body style="background-color: rgb(234, 236, 239);">
+  <body>
     <!-- Navbar -->
     <nav class="navbar navbar-expand navbar-dark bg-secondary fixed-top">
       <div class="container-fluid">
@@ -22,16 +22,16 @@
         <div class="collapse navbar-collapse" id="mynavbar">
           <ul class="navbar-nav me-auto">
             <li class="nav-item">
-              <a class="nav-link" href="#"><img class="nav_home" src="https://images.vexels.com/media/users/3/135263/isolated/preview/b26ee4099ae2550f79e65e41843a9198-web-home-flat-sign.png" alt="Home"/></a>
+              <a class="nav-link" href="index.html"><img class="nav_home" src="https://images.vexels.com/media/users/3/135263/isolated/preview/b26ee4099ae2550f79e65e41843a9198-web-home-flat-sign.png" alt="Home"/></a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">History</a>
+              <a class="nav-link disabled" href="#">History</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Players</a>
+              <a class="nav-link disabled" href="#">Players</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Openings</a>
+              <a class="nav-link disabled" href="#">Openings</a>
             </li>
           </ul>
           <!-- Not working search bar -->
@@ -44,33 +44,145 @@
       </div>
     </nav>
 
+    <!-- Add Jumbotron -->
+    <!-- Find a way to space the cards -->
+
     <div class="row row_layout">
-      <!-- Wikipedia Ches site -->
+      <!-- Wikipedia -->
       <div class="col-sm-4 col-md-3 col-lg-2">
         <a href="https://en.wikipedia.org/wiki/Chess" target="_blank">
-          <div class="card card_bg">
+          <div class="card card_bg" id="wikipedia_bg">
             <div class="card-body">
               <img class="card-img-top" src="https://upload.wikimedia.org/wikipedia/en/thumb/8/80/Wikipedia-logo-v2.svg/1200px-Wikipedia-logo-v2.svg.png">
               <div class="card-img-overlay">
                 <div class="rounded overlay_layout">
-                  <p class="card-title">Chess - <kbd class="kbd_site_style">Wikipedia</kbd></p>
+                  <p class="card-title"><kbd class="kbd_site_style">Wikipedia</kbd></p>
                 </div>
               </div>
             </div>
           </div>
         </a>
       </div>
-      <div class="col-sm-4 col-md-3 col-lg-2">Test 2</div>
-      <div class="col-sm-4 col-md-3 col-xlg-2">Test 3</div>
-      <div class="col-sm-4 col-md-3 col-lg-2">Test 4</div>
-      <div class="col-sm-4 col-md-3 col-lg-2">Test 1</div>
-      <div class="col-sm-4 col-md-3 col-lg-2">Test 2</div>
-      <div class="col-sm-4 col-md-3 col-lg-2">Test 3</div>
-      <div class="col-sm-4 col-md-3 col-lg-2">Test 4</div>
-      <div class="col-sm-4 col-md-3 col-lg-2">Test 1</div>
-      <div class="col-sm-4 col-md-3 col-lg-2">Test 2</div>
-      <div class="col-sm-4 col-md-3 col-lg-2">Test 3</div>
-      <div class="col-sm-4 col-md-3 col-lg-2">Test 4</div>
+      <!-- Britianica -->
+      <div class="col-sm-4 col-md-3 col-lg-2">
+        <a href="https://www.britannica.com/topic/chess/History" target="_blank">
+          <div class="card card_bg" id="britianica_bg">
+            <div class="card-body">
+              <img class="card-img-top" src="https://www.giraffesocialmedia.co.uk/wp-content/uploads/2018/03/Britannica.jpg">
+              <div class="card-img-overlay">
+                <div class="rounded overlay_layout">
+                  <p class="card-title"><kbd class="kbd_site_style">Britannica</kbd></p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </a>
+      </div>
+      <!-- Chess.com -->
+      <div class="col-sm-4 col-md-3 col-lg-2">
+        <a href="https://www.chess.com/" target="_blank">
+          <div class="card card_bg" id="chesscom_bg">
+            <div class="card-body">
+              <img class="card-img-top" src="https://images.chesscomfiles.com/uploads/v1/images_users/tiny_mce/SamCopeland/phpmeXx6V.png">
+              <div class="card-img-overlay">
+                <div class="rounded overlay_layout">
+                  <p class="card-title"><kbd class="kbd_site_style">Chess.com</kbd></p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </a>
+      </div>
+      <!-- LiChess -->
+      <div class="col-sm-4 col-md-3 col-lg-2">
+        <a href="https://lichess.org/" target="_blank">
+          <div class="card card_bg" id="lichess_bg">
+            <div class="card-body">
+              <img class="card-img-top" src="https://images.prismic.io/lichess/5cfd2630-2a8f-4fa9-8f78-04c2d9f0e5fe_lichess-box-1024.png?auto=compress,format">
+              <div class="card-img-overlay">
+                <div class="rounded overlay_layout">
+                  <p class="card-title"><kbd class="kbd_site_style">LiChess</kbd></p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </a>
+      </div>
+      <!-- Chess24 -->
+      <div class="col-sm-4 col-md-3 col-lg-2">
+        <a href="https://chess24.com/en" target="_blank">
+          <div class="card card_bg" id="chess24_bg">
+            <div class="card-body">
+              <img class="card-img-top" src="https://play-lh.googleusercontent.com/MCkIDHKqaQn0F86BJ3vFSWZfS50G93QSk69uwtGYK2ENVkKCawPYc7hYiGy3LjsO5g">
+              <div class="card-img-overlay">
+                <div class="rounded overlay_layout">
+                  <p class="card-title"><kbd class="kbd_site_style">Chess24</kbd></p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </a>
+      </div>
+      <!-- Kasparov Chess -->
+      <div class="col-sm-4 col-md-3 col-lg-2">
+        <a href="https://m.kasparovchess.com/home" target="_blank">
+          <div class="card card_bg" id="kasparovchess_bg">
+            <div class="card-body">
+              <img class="card-img-top rounded" id="kasparovchess_margintop" src="https://www.thechessdrum.net/newsbriefs/2021/NB_photos/KasparovChess.png">
+              <div class="card-img-overlay">
+                <div class="rounded overlay_layout">
+                  <p class="card-title"><kbd class="kbd_site_style">Kasparov Ch.</kbd></p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </a>
+      </div>
+      <!-- Play Magnus -->
+      <div class="col-sm-4 col-md-3 col-lg-2">
+        <a href="https://www.playmagnus.com/en" target="_blank">
+          <div class="card card_bg" id="playmagnus_bg">
+            <div class="card-body">
+              <img class="card-img-top rounded"src="https://mergerlinks-production.s3.eu-west-2.amazonaws.com/files/company/58619/logo/magnus.png">
+              <div class="card-img-overlay">
+                <div class="rounded overlay_layout">
+                  <p class="card-title"><kbd class="kbd_site_style">Play Magnus</kbd></p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </a>
+      </div>
+      <!-- Chessable -->
+      <div class="col-sm-4 col-md-3 col-lg-2">
+        <a href="https://www.chessable.com/" target="_blank">
+          <div class="card card_bg" id="chessable_bg">
+            <div class="card-body">
+              <img class="card-img-top rounded" src="https://www.chessable.com/ajax/uploads/medium/551644237856.jpg">
+              <div class="card-img-overlay">
+                <div class="rounded overlay_layout">
+                  <p class="card-title"><kbd class="kbd_site_style">Chessable</kbd></p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </a>
+      </div>
+      <!-- FIDE -->
+      <div class="col-sm-4 col-md-3 col-lg-2">
+        <a href="https://www.fide.com/" target="_blank">
+          <div class="card card_bg" id="fide_bg">
+            <div class="card-body">
+              <img class="card-img-top rounded" id="fide_margintop" src="https://upload.wikimedia.org/wikipedia/en/thumb/5/5b/Fidelogo.svg/1200px-Fidelogo.svg.png">
+              <div class="card-img-overlay">
+                <div class="rounded overlay_layout">
+                  <p class="card-title"><kbd class="kbd_site_style">FIDE</kbd></p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </a>
+      </div>
     </div>
 
   </body>
