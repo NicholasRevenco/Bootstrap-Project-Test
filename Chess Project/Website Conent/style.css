@@ -1,0 +1,28 @@
+.nav_home {
+  width: 30px;
+  margin: 0px;
+}
+
+.row_layout {
+  margin-top: 100px;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+.card_bg {
+  background-color: rgb(224, 101, 97);
+}
+
+.overlay_layout {
+  background-color: rgb(234, 236, 239);
+  padding: 5px;
+  margin: 5px;
+  text-align: center;
+  opacity: .9;
+  margin-top: 5px;
+  color: rgb(112, 118, 126);
+}
+
+.kbd_site_style {
+  background-color: rgb(207, 107, 100);
+}

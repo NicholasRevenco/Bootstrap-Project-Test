@@ -12,19 +12,17 @@
     <link rel="stylesheet" type="text/css" href="style.css">
   </head>
 
-  <body>
+  <body style="background-color: rgb(234, 236, 239);">
     <!-- Navbar -->
     <nav class="navbar navbar-expand navbar-dark bg-secondary fixed-top">
       <div class="container-fluid">
-
         <!--<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mynavbar">
           <span class="navbar-toggler-icon"></span>
         </button>-->
-
         <div class="collapse navbar-collapse" id="mynavbar">
           <ul class="navbar-nav me-auto">
             <li class="nav-item">
-              <a class="nav-link" href="#"><img class="pfp_size" src="https://images.vexels.com/media/users/3/135263/isolated/preview/b26ee4099ae2550f79e65e41843a9198-web-home-flat-sign.png" alt="Home"/></a>
+              <a class="nav-link" href="#"><img class="nav_home" src="https://images.vexels.com/media/users/3/135263/isolated/preview/b26ee4099ae2550f79e65e41843a9198-web-home-flat-sign.png" alt="Home"/></a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="#">History</a>
@@ -36,7 +34,6 @@
               <a class="nav-link" href="#">Openings</a>
             </li>
           </ul>
-
           <!-- Not working search bar -->
           <form class="d-flex">
             <input class="form-control me-2" type="text" placeholder="Search" readonly>
@@ -45,33 +42,35 @@
 
         </div>
       </div>
-
     </nav>
 
-    <div class="row" style="margin-top: 100px; margin-left: 5%; margin-right: 5%;">
-      <div class="col-sm-2 col-md-3 col-lg-4">
-        <div class="card" style="background-color: rgb(224, 101, 97);">
-          <div class="card-body">
-            <img class="card-img-top" src="https://upload.wikimedia.org/wikipedia/en/thumb/8/80/Wikipedia-logo-v2.svg/1200px-Wikipedia-logo-v2.svg.png">
-            <div style="background-color: white; padding: 5px; margin: 5px; text-align: center;" class="rounded">
-              <p class="card-text" style="margin-top: 5px; font-size: 20px;">Wikipedia</p>
-              <!-- <a href="https://en.wikipedia.org/wiki/Chess" class="card-link">Link</a> -->
+    <div class="row row_layout">
+      <!-- Wikipedia Ches site -->
+      <a href="https://en.wikipedia.org/wiki/Chess" target="_blank">
+        <div class="col-sm-4 col-md-3 col-lg-2">
+          <div class="card card_bg">
+            <div class="card-body">
+              <img class="card-img-top" src="https://upload.wikimedia.org/wikipedia/en/thumb/8/80/Wikipedia-logo-v2.svg/1200px-Wikipedia-logo-v2.svg.png">
+              <div class="card-img-overlay">
+                <div class="rounded overlay_layout">
+                  <p class="card-title">Chess - <kbd class="kbd_site_style">Wikipedia</kbd></p>
+                </div>
+              </div>
             </div>
           </div>
         </div>
-      </div>
-      <div class="col-sm-2 col-md-3 col-lg-4">
-      </div>
-      <div class="col-sm-2 col-md-3 col-lg-4">Test 3</div>
-      <div class="col-sm-2 col-md-3 col-lg-4">Test 4</div>
-      <div class="col-sm-2 col-md-3 col-lg-4">Test 1</div>
-      <div class="col-sm-2 col-md-3 col-lg-4">Test 2</div>
-      <div class="col-sm-2 col-md-3 col-lg-4">Test 3</div>
-      <div class="col-sm-2 col-md-3 col-lg-4">Test 4</div>
-      <div class="col-sm-2 col-md-3 col-lg-4">Test 1</div>
-      <div class="col-sm-2 col-md-3 col-lg-4">Test 2</div>
-      <div class="col-sm-2 col-md-3 col-lg-4">Test 3</div>
-      <div class="col-sm-2 col-md-3 col-lg-4">Test 4</div>
+      </a>
+      <div class="col-sm-4 col-md-3 col-lg-2">Test 2</div>
+      <div class="col-sm-4 col-md-3 col-xlg-2">Test 3</div>
+      <div class="col-sm-4 col-md-3 col-lg-2">Test 4</div>
+      <div class="col-sm-4 col-md-3 col-lg-2">Test 1</div>
+      <div class="col-sm-4 col-md-3 col-lg-2">Test 2</div>
+      <div class="col-sm-4 col-md-3 col-lg-2">Test 3</div>
+      <div class="col-sm-4 col-md-3 col-lg-2">Test 4</div>
+      <div class="col-sm-4 col-md-3 col-lg-2">Test 1</div>
+      <div class="col-sm-4 col-md-3 col-lg-2">Test 2</div>
+      <div class="col-sm-4 col-md-3 col-lg-2">Test 3</div>
+      <div class="col-sm-4 col-md-3 col-lg-2">Test 4</div>
     </div>
 
   </body>
