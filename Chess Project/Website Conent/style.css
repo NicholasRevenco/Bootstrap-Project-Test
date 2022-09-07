@@ -45,7 +45,6 @@ body {
 }
 
 #lichess_bg {
-  background-color: rgb(255, 255, 255);
 }
 
 #chess24_bg {
@@ -68,6 +67,26 @@ body {
   margin-top: 23px;
 }
 
+#stockfish_bg {
+  background-color: rgb(101, 158, 113);
+}
+
+#leela_bg {
+  background-color: rgb(224, 195, 206);
+}
+
+#leela_margintop {
+  margin-top: 15px;
+}
+
 #fide_margintop {
   margin-top: 25px;
+}
+
+#komodo_margintop {
+  margin-top: 25px;
+}
+
+#komodo_bg {
+  background-color: rgb(255, 224, 163);
 }
