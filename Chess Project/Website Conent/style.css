@@ -2,6 +2,10 @@ body {
   background-color: rgb(234, 236, 239)
 }
 
+.margin_below_navbar {
+  margin-top: 25px;
+}
+
 .index_padding {
   padding-bottom: 2%;
 }
@@ -15,6 +19,10 @@ body {
   margin-top: 25px;
   margin-left: 25px;
   margin-right: 25px;
+}
+
+#champions_table_margin {
+  margin-top: 10px;
 }
 
 #index_jumbotron {
