@@ -16,28 +16,38 @@
     <!-- Navbar -->
     <nav class="navbar navbar-expand navbar-dark bg-secondary fixed-top">
       <div class="container-fluid">
-        <!--<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mynavbar">
-          <span class="navbar-toggler-icon"></span>
-        </button>-->
+        </button>
         <div class="collapse navbar-collapse" id="mynavbar">
           <ul class="navbar-nav me-auto">
             <li class="nav-item">
               <a class="nav-link" href="index.html"><img class="nav_home" src="https://images.vexels.com/media/users/3/135263/isolated/preview/b26ee4099ae2550f79e65e41843a9198-web-home-flat-sign.png" alt="Home"/></a>
             </li>
             <li class="nav-item">
-              <a class="nav-link disabled" href="#">History</a>
+              <a class="nav-link" href="history.html">History</a>
             </li>
-            <li class="nav-item">
-              <a class="nav-link disabled" href="#">Players</a>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">Players</a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Magnus Carlsen</a></li>
+                <li><a class="dropdown-item" href="#">Bobby Fischer</a></li>
+                <li><a class="dropdown-item" href="#">Viswanathan Anand</a></li>
+                <li><a class="dropdown-item" href="#">Anatoly Karpov</a></li>
+              </ul>
             </li>
-            <li class="nav-item">
-              <a class="nav-link disabled" href="#">Openings</a>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">Openings</a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Sicilian Defense</a></li>
+                <li><a class="dropdown-item" href="#">French Defense</a></li>
+                <li><a class="dropdown-item" href="#">Ruy López Opening</a></li>
+                <li><a class="dropdown-item" href="#">Caro-Kann Defense</a></li>
+              </ul>
             </li>
           </ul>
           <!-- Not working search bar -->
           <form class="d-flex">
-            <input class="form-control me-2" type="text" placeholder="Search" readonly>
-            <button class="btn btn-danger disabled" type="button">Search</button>
+            <input class="form-control me-2" type="text" placeholder="Search">
+            <button class="btn btn-danger" type="button">Search</button>
           </form>
 
         </div>
@@ -46,7 +56,6 @@
 
     <!-- Add Jumbotron -->
     <!-- Find a way to space the cards -->
-
     <div class="row row_layout">
       <!-- Chess.com -->
       <div class="col-sm-4 col-md-3 col-lg-2">
