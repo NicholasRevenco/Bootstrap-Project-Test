@@ -2,15 +2,23 @@ body {
   background-color: rgb(234, 236, 239)
 }
 
+.index_padding {
+  padding-bottom: 2%;
+}
+
 .nav_home {
   width: 30px;
   margin: 0px;
 }
 
 .row_layout {
+  margin-top: 25px;
+  margin-left: 25px;
+  margin-right: 25px;
+}
+
+#index_jumbotron {
   margin-top: 100px;
-  margin-left: 5%;
-  margin-right: 5%;
 }
 
 .card_bg {
