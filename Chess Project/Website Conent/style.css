@@ -32,51 +32,20 @@ body {
   background-color: rgb(207, 107, 100);
 }
 
-#wikipedia_bg {
+.red_bg {
   background-color: rgb(224, 101, 97);
 }
 
-#britianica_bg {
-  background-color: rgb(33, 61, 103);
-}
-
-#chesscom_bg {
-  background-color: rgb(224, 146, 97);
-}
-
-#lichess_bg {
-}
-
-#chess24_bg {
-  background-color: rgb(144, 140, 173);
-}
-
-#kasparovchess_bg {
-  background-color: rgb(0, 0, 0);
-}
-
-#fide_bg {
-  background-color: rgb(51, 62, 99);
-}
-
-#chessable_bg {
-  background-color: rgb(40, 91, 218);
+.white_bg {
+  background-color: rgb(255, 255, 255);
 }
 
 #kasparovchess_margintop {
   margin-top: 23px;
 }
 
-#stockfish_bg {
-  background-color: rgb(101, 158, 113);
-}
-
-#leela_bg {
-  background-color: rgb(224, 195, 206);
-}
-
 #leela_margintop {
-  margin-top: 15px;
+  margin-top: 40px;
 }
 
 #fide_margintop {
@@ -84,9 +53,5 @@ body {
 }
 
 #komodo_margintop {
-  margin-top: 25px;
-}
-
-#komodo_bg {
-  background-color: rgb(255, 224, 163);
+  margin-top: 40px;
 }
