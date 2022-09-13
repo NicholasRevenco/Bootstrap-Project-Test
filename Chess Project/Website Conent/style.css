@@ -21,35 +21,6 @@ body {
   margin-right: 25px;
 }
 
-#offcanvas_textsize {
-  font-size: 12px;
-}
-
-#canvas_height_id {
-  height: 35px;
-}
-
-#toast_width {
-  width: 50%;
-}
-
-#toast_container_style {
-  margin-left: 25%;
-  padding-top: 15px;
-}
-
-#jumbotron_margin-top {
-  margin-top; 200px;
-}
-
-#champions_table_margin {
-  margin-top: 10px;
-}
-
-#index_jumbotron {
-  margin-top: 100px;
-}
-
 .card_bg {
   height: 100%;
 }
@@ -77,6 +48,10 @@ body {
   background-color: rgb(255, 255, 255);
 }
 
+.white_text {
+  color: white;
+}
+
 #kasparovchess_margintop {
   margin-top: 23px;
 }
@@ -91,4 +66,33 @@ body {
 
 #komodo_margintop {
   margin-top: 40px;
+}
+
+#offcanvas_textsize {
+  font-size: 12px;
+}
+
+#canvas_height_id {
+  height: 35px;
+}
+
+#toast_width {
+  width: 50%;
+}
+
+#toast_container_style {
+  margin-left: 25%;
+  padding-top: 15px;
+}
+
+#jumbotron_margin-top {
+  margin-top; 200px;
+}
+
+#champions_table_margin {
+  margin-top: 10px;
+}
+
+#index_jumbotron {
+  margin-top: 100px;
 }
