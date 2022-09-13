@@ -56,21 +56,39 @@
 
     <!-- Jumbotron -->
     <div id="index_jumbotron">
-      <div class="mt-4 p-5 bg-danger text-white row_layout rounded" style="margin-top: 200px;">
+      <div class="mt-4 p-5 bg-danger text-white row_layout rounded" id="jumbotron_margin-top">
         <h3>Information of Website</h3>
         <p>This home page contains websites to play online chess, websites that contain information on learning chess, official chess organizations, chess engines, as well as background information of the history of chess. Currently, the search bar has no functin, and the History tab in the navbar is the only tab that directs the user to another website page (besides the profiles seen below).</p>
       </div>
     </div>
 
-    <div class="container" style="margin-left: 25%; padding-top: 15px;">
-      <div class="toast show" style="width: 50%;">
+    <!-- Toast -->
+    <div class="container" id="toast_container_style">
+      <div class="toast show" id="toast_width">
         <div class="toast-header">
           <h5>Website Designer Info.</h5>
           <button type="button" data-bs-dismiss="toast" class="btn-close"></button>
-
         </div>
         <div class="toast-body">
           <p>Designer: Nicholas Revenco</p>
+          <!-- Offcanvas -->
+          <div class="offcanvas offcanvas-start" id="offcanvas_id">
+            <div class="offcanvas-header">
+              <h1 class="offcanvas-title">Nicholas Revenco</h1>
+              <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas"></button>
+            </div>
+            <div class="offcanvas-body">
+              <p>Chess rating: 1600</p>
+              <p>Chess platform: Chess.com</p>
+              <p>Started playing chess: Febuary of 2020</p>
+              <p>Tournaments played in: N/A</p>
+              <p>Chess.com profile name: nicuplayschess</p>
+              <p>Second Chess.com account name: nicupracticeschess</p>
+            </div>
+          </div>
+          <button class="btn btn-danger" data-bs-target="#offcanvas_id" type="button" data-bs-toggle="offcanvas" id="canvas_height_id">
+            <p id="offcanvas_textsize">More information</p>
+          </button>
         </div>
       </div>
     </div>

@@ -3,7 +3,7 @@ body {
 }
 
 .margin_below_navbar {
-  margin-top: 25px;
+  margin-top: 85px;
 }
 
 .index_padding {
@@ -19,6 +19,27 @@ body {
   margin-top: 25px;
   margin-left: 25px;
   margin-right: 25px;
+}
+
+#offcanvas_textsize {
+  font-size: 12px;
+}
+
+#canvas_height_id {
+  height: 35px;
+}
+
+#toast_width {
+  width: 50%;
+}
+
+#toast_container_style {
+  margin-left: 25%;
+  padding-top: 15px;
+}
+
+#jumbotron_margin-top {
+  margin-top; 200px;
 }
 
 #champions_table_margin {
