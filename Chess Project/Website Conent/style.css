@@ -81,8 +81,8 @@ body {
 }
 
 #toast_container_style {
-  margin-left: 25%;
-  padding-top: 15px;
+  margin-left: 28%;
+  margin-top: 15px;
 }
 
 #jumbotron_margin-top {
@@ -95,4 +95,10 @@ body {
 
 #index_jumbotron {
   margin-top: 100px;
+}
+
+#popover_container_style {
+  margin-left: 15%;
+  width: 15%;
+  margin-top: 15px;
 }
