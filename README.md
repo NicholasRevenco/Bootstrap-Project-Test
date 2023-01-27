@@ -1,5 +1,5 @@
 # Bootstrap-Project
-Test
+
 Requirement 1:
   Grid (in index.html)
 
@@ -8,7 +8,7 @@ Requirement 2:
 
 Requirement 3:
   Flexible elements:
-    Cards (in index.html) Test
+    Cards (in index.html)
     Jumbotron (in index.html)
     Table (in history.html)
     Alert (in history.html)
