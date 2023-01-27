@@ -8,7 +8,7 @@ Requirement 2:
 
 Requirement 3:
   Flexible elements:
-    Cards (in index.html)
+    Cards (in index.html) Test
     Jumbotron (in index.html)
     Table (in history.html)
     Alert (in history.html)
